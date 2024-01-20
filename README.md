@@ -16,6 +16,10 @@ Our app aims to provide users with a platform to practice buying and selling sto
 
 The app is built using Next js on the frontend using Tailwind.css, and the Rechart library to graph stock price data. On the backend we used express framework, MongoDb as the database and the Mongoose library to connect to it, sockets to create the live chat feature, a lot of the normal libraries from class labs (ex. express-session, cookie, bcrypt etc.), Finnhub and twelve data APIs to get stock information, and memcached to cache that data. The code is designed in a way such that the frontend calls the backend using functions in api.mjs and then the backend does all the fetching from database, cache, or APIs, frontend handles the response to display to user.   
 
+## Deployment
+
+We deployed the front end on vercel and backend on a google cloud vm 
+
 ## Challenges
 
 **Task:** What is the top 3 most challenging things that you have learned/developed for you app? Please restrict your answer to only three items. 
